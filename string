@@ -1,0 +1,12 @@
+# Solicita uma str
+texto = input("Digite a string que deseja inverter: ")
+
+# Variável para armazenar a string invertida
+texto_invertido = ""
+
+# Percorre a string de trás para frente usando um loop 
+for i in range(len(texto) - 1, -1, -1):
+    texto_invertido += texto[i]
+
+#printa a str invertida 
+print(f"String invertida: {texto_invertido}")
